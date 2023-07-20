@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/access/css/style.css">
+    <link rel="stylesheet" href="/access/font/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="header">
+                <img class="icon_list" src="/access/img/todo.ed7b1c334a2d2a8073db.png" alt="Todo_img">
+
+                <h2>
+                    Todo List
+            </div>
+            <p id="span" style="text-align:center"></p>
+            <div id="content">
+                <input class="input_job" type="text" placeholder="Add new job ?">
+                <button id="add" class="add_job">Add</button>
+                <button style="display: none;" id="update" class="add_job">Update</button>
+                <input id="index" type="hidden">
+
+                <div class="All_list">
+                    <p class="check_all" onclick="CheckAll"><i class="ti-check"></i> Complete all tasks</p>
+                    <p class="delete_all"onclick="DeleteAll">Delete comp tasks</p>
+                </div>
+
+                <div class="List_todo">
+
+                </div>
+
+            </div>
+            <div id="footer">
+                <div class="dropdown">
+                    <button class="filter">Filter</button>
+                    <div class="dropdown_content">
+                        <a id="all" href="#">All</a>
+                        <a id="uncom" href="#">Uncomplete</a>
+                        <a id="com" href="#">Complete</a>
+
+                    </div>
+                </div>
+                <p class="sum_list">Total Tasks: </p>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+</body>
+<script src="access/Hi.js"></script>
+
+
+</html>
